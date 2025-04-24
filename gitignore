@@ -1,0 +1,80 @@
+# Node modules
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment files
+.env
+.env.*.local
+
+# Dependency directories
+jspm_packages/
+
+# Optional npm cache directory
+.npm/
+
+# Optional eslint cache
+.eslintcache
+
+# Optional REPL history
+.node_repl_history
+
+# IDEs and editors
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# Build output
+dist/
+build/
+tmp/
+temp/
+
+# Coverage directory used by testing tools
+coverage/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# PM2 process files
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Misc
+*.swp
+*.bak
+*.orig
+*.rej
+
+# Next.js / Nuxt / other frameworks (ignorar se não usar)
+.next/
+.nuxt/
+out/
+
+# Svelte
+.svelte-kit/
+
+# Expo/React Native (caso use em integração com Node)
+.expo/
+.expo-shared/
+
+# Firebase
+.firebase/
+
+# Local SSL keys
+*.key
+*.crt
